@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+/* 1st navbar */
+.contain{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: sticky/fixed;
+}
+.rew{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+.reward{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+.gift{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+.map{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.find{
+    padding: 10px; 
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+.btn{
+    padding: 5px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.sign{
+    background-color: #fefefe;
+    border: 1px solid #000000;
+}
+.now{
+    color: #f1f8f6;
+    background-color: #000000;
+    border: 1px solid #000000;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+/* 1st navbar ends */
+
+/* 2nd navbar */
+.starbuck{
+    width: 100%;
+    height: 100%;
+    position: sticky/fixed;
+    background-color: #1e3932;
+    border: 1px solid #223d35;
+}
+.can{
+    width: 80%;
+    height: 5vh;
+    margin-left: 60px;
+}
+.bucks{
+    font-size: 18px;
+    padding: 5px 108px;
+    color: #f1f8f6;
+}
+/* 2nd navbar ends */
+
+/* 3rd div */ 
+.container{
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .left{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-color: #1e3932;
+}
+.container .right{
+    width: 50%;
+    height: 600px;
+    float: right;
+    background-image: url(img2.JPG);
+}
+.inner{
+    width: 90vh;
+    height: 600px;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.big{
+    font-size: 35px;
+    color: #f1f8f6;
+    font-weight: 700; 
+}
+.cash{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f8f6;
+}
+.tion{
+   margin-top: 30px; 
+}
+.mit{
+    background-color: #008248;
+    border: 1px solid #008248;
+    color: #f1f8f6;
+}
+.app{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f8f6;
+}
+.terms{
+    color: #f1f8f6;
+}
+.copy{
+    font-size: 8px;
+}
+.mark{
+    font-size: 13px;
+    padding-left: 3px;
+}
+/* 3rd div ends */
+
+/* 4th div */
+.three{
+    width: 100%;
+    height: 500px;
+}
+.easy{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 28px;
+    line-height: 1.5cm;
+}
+.earn{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(90, 88, 88);
+    font-weight: 700;
+}
+.grid{
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 50px;
+}
+.items{
+    text-align: center;
+}
+.num{
+    border-radius: 50px;
+    padding: 1px 15px;
+    color: #008248;
+    background-color: #fefefe;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #008248;
+}
+.creet{
+    padding-top: 22px;
+    color: #1e3932;
+    font-size: 22px;
+    font-weight: 700;
+}
+.para{
+    color: rgb(90, 88, 88);
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.green{
+    color: #008248;
+}
+.dash{
+    font-weight: 300;
+}
+/* 4th div ends */
+
+/* 5th div */
+.last{
+    width: 100%;
+    height: 23vh;
+    background-color: #f1f8f6;
+}
+.fav{
+    text-align: center;
+    color: #1e3932;
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.lisks{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 35%;
+    margin: auto;
+    padding-top: 40px;
+}
+.tric{
+    text-decoration: none;
+    color: #1e3932;
+    font-size: 23px;
+    font-weight: 700;
+}
+.star{
+    font-size: 12px;
+    color: rgb(212, 163, 71);
+}
+.fourt,a:hover{
+    border-bottom: 5px solid #008248;
+}
+/* 5th div ends */
+
+/* 6th div */
+.home{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.juice{
+   margin-top: 30px; 
+   width: 350px;
+   padding-right: 30px;
+}
+.deus{
+    margin-top: 80px;
+    padding-left: 45px;
+}
+.coffee{
+    font-weight: 700;
+    line-height: 0.9cm;
+    color: #223d35;
+}
+.cup{
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(90, 88, 88);
+    font-weight: 700;
+}
+/* 6th div ends */
